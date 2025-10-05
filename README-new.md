@@ -1,0 +1,32 @@
+# AI Floor Plan Designer - WABO/AFH Compliance Tool
+
+AI-powered floor plan generator with automatic WABO compliance checking.
+
+## Quick Start
+```bash
+npm install
+npm run dev
+After this runs successfully, run:
+```bash
+cat > package.json << 'EOF'
+{
+  "name": "ai-floor-plan-designer",
+  "version": "1.0.0",
+  "description": "AI-powered floor plan generator with WABO/AFH compliance checking",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.3.0"
+  }
+}
